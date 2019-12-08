@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\tranq\.Rider2019.2\config\scratches" t="IncludeRecursive" />
@@ -14,7 +14,9 @@
         <e p="WeatherForecastController.cs" t="Include" />
       </e>
       <e p="Data" t="Include">
+        <e p="AuthRepository.cs" t="Include" />
         <e p="DataContext.cs" t="Include" />
+        <e p="IAuthRepository.cs" t="Include" />
       </e>
       <e p="DatingApp.API.csproj" t="IncludeRecursive" />
       <e p="DatingApp.API.sln" t="IncludeFlat" />
@@ -22,9 +24,12 @@
       <e p="Migrations" t="Include">
         <e p="20191207160430_InitialCreate.cs" t="Include" />
         <e p="20191207160430_InitialCreate.Designer.cs" t="Include" />
+        <e p="20191208150845_AddedUserEntity.cs" t="Include" />
+        <e p="20191208150845_AddedUserEntity.Designer.cs" t="Include" />
         <e p="DataContextModelSnapshot.cs" t="Include" />
       </e>
       <e p="Models" t="Include">
+        <e p="User.cs" t="Include" />
         <e p="Value.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive">
