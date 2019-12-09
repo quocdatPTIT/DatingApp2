@@ -4,9 +4,11 @@
     <list default="true" id="290f7726-04ef-4967-b0bd-cc1964d7b83b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DatingApp.API/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DatingApp.API/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DatingApp.API/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DatingApp.API/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/DataContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/DataContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/ValuesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/ValuesController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/AuthRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/AuthRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DatingApp.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DatingApp.API.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/DataContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Migrations/DataContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/appsettings.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +21,13 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Data/AuthRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/56C02F65-7F8E-4DE0-B35F-CD26C3C2693D/ca/33f6e145/AsyncValueTaskMethodBuilder`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controllers/AuthController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controllers/ValuesController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Models/User.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Dtos/UserForRegisterDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Dtos/UserForLoginDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Data/DataContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Migrations/20191208150845_AddedUserEntity.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Startup.cs" root0="FORCE_HIGHLIGHTING" />
@@ -31,6 +39,12 @@
         <option value="$PROJECT_DIR$/Models/User.cs" />
         <option value="$PROJECT_DIR$/Data/DataContext.cs" />
         <option value="$PROJECT_DIR$/Data/IAuthRepository.cs" />
+        <option value="$PROJECT_DIR$/Dtos/UserForRegisterDto.cs" />
+        <option value="$PROJECT_DIR$/Dtos/UserForLoginDto.cs" />
+        <option value="$PROJECT_DIR$/appsettings.json" />
+        <option value="$PROJECT_DIR$/Controllers/AuthController.cs" />
+        <option value="$PROJECT_DIR$/Controllers/ValuesController.cs" />
+        <option value="$PROJECT_DIR$/Startup.cs" />
         <option value="$PROJECT_DIR$/Data/AuthRepository.cs" />
       </list>
     </option>
@@ -38,6 +52,7 @@
   <component name="ProjectId" id="1UgWrkWD0lkDc33TIVd4yRziCAn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -94,7 +109,9 @@
       <option name="presentableId" value="Default" />
       <updated>1575778921869</updated>
       <workItem from="1575778926500" duration="45000" />
-      <workItem from="1575805617300" duration="5872000" />
+      <workItem from="1575805617300" duration="6383000" />
+      <workItem from="1575862906981" duration="581000" />
+      <workItem from="1575873979572" duration="9353000" />
     </task>
     <servers />
   </component>
@@ -106,7 +123,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

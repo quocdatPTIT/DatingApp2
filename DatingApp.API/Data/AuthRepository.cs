@@ -9,20 +9,20 @@ namespace DatingApp.API.Data
         private readonly DataContext _context;
         
         /// <summary>
-        /// 
+        /// constructor injection DataContext
         /// </summary>
-        /// <param name="context"></param>
+        /// <param name="context">link to database</param>
         public AuthRepository(DataContext context)
         {
             _context = context;
         }
         
         /// <summary>
-        /// 
+        /// register new user
         /// </summary>
-        /// <param name="user"></param>
-        /// <param name="password"></param>
-        /// <returns></returns>
+        /// <param name="user">object new user</param>
+        /// <param name="password">password's user register</param>
+        /// <returns>user register</returns>
         public async Task<User> Register(User user, string password)
         {
             byte[] passwordHash, passwordSalt;
@@ -38,11 +38,11 @@ namespace DatingApp.API.Data
         }
         
         /// <summary>
-        /// 
+        /// password type text convert password type hash 
         /// </summary>
-        /// <param name="password"></param>
-        /// <param name="passwordHash"></param>
-        /// <param name="passwordSalt"></param>
+        /// <param name="password">password user input</param>
+        /// <param name="passwordHash">password hash convert from password</param>
+        /// <param name="passwordSalt">password salt convert from password</param>
         private void CreatePasswordHash(string password, out byte[] passwordHash, out byte[] passwordSalt)
         {
             using (var hmac = new System.Security.Cryptography.HMACSHA512())
@@ -53,11 +53,11 @@ namespace DatingApp.API.Data
         }
         
         /// <summary>
-        /// 
+        /// login from user
         /// </summary>
-        /// <param name="username"></param>
-        /// <param name="password"></param>
-        /// <returns></returns>
+        /// <param name="username">name's user input</param>
+        /// <param name="password">password's user input</param>
+        /// <returns>user has registered in db</returns>
         public async Task<User> Login(string username, string password)
         {
             var user = await _context.Users.FirstOrDefaultAsync(x => x.Username == username);
@@ -71,12 +71,12 @@ namespace DatingApp.API.Data
         }
         
         /// <summary>
-        /// 
+        /// check password hash when user login
         /// </summary>
-        /// <param name="password"></param>
-        /// <param name="userPasswordHash"></param>
-        /// <param name="userPasswordSalt"></param>
-        /// <returns></returns>
+        /// <param name="password">password checked</param>
+        /// <param name="userPasswordHash">password hash 's user in database</param>
+        /// <param name="userPasswordSalt">password salt 's user in database</param>
+        /// <returns>true if same password</returns>
         private bool VerifyPasswordHash(string password, byte[] userPasswordHash, byte[] userPasswordSalt)
         {
             using (var hmac = new System.Security.Cryptography.HMACSHA512(userPasswordSalt))
@@ -95,10 +95,10 @@ namespace DatingApp.API.Data
         }
         
         /// <summary>
-        /// 
+        /// check user exists in database
         /// </summary>
-        /// <param name="username"></param>
-        /// <returns></returns>
+        /// <param name="username">user name checked</param>
+        /// <returns>true if user exists</returns>
         public async Task<bool> UserExists(string username)
         {
             if (await _context.Users.AnyAsync(x => x.Username == username))
