@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="290f7726-04ef-4967-b0bd-cc1964d7b83b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DatingApp.API/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DatingApp.API/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatingApp-SPA/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../DatingApp-SPA/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatingApp-SPA/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../DatingApp-SPA/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatingApp-SPA/src/app/value/value.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatingApp-SPA/src/app/value/value.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatingApp-SPA/src/app/value/value.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatingApp-SPA/src/app/value/value.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatingApp-SPA/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../DatingApp-SPA/src/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DatingApp.API/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DatingApp.API/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controllers/ValuesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/ValuesController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/AuthRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/AuthRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DatingApp.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DatingApp.API.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/appsettings.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,9 +45,10 @@
         <option value="$PROJECT_DIR$/Dtos/UserForLoginDto.cs" />
         <option value="$PROJECT_DIR$/appsettings.json" />
         <option value="$PROJECT_DIR$/Controllers/AuthController.cs" />
-        <option value="$PROJECT_DIR$/Controllers/ValuesController.cs" />
         <option value="$PROJECT_DIR$/Startup.cs" />
         <option value="$PROJECT_DIR$/Data/AuthRepository.cs" />
+        <option value="$PROJECT_DIR$/appsettings.Development.json" />
+        <option value="$PROJECT_DIR$/Controllers/ValuesController.cs" />
       </list>
     </option>
   </component>
@@ -111,7 +114,10 @@
       <workItem from="1575778926500" duration="45000" />
       <workItem from="1575805617300" duration="6383000" />
       <workItem from="1575862906981" duration="581000" />
-      <workItem from="1575873979572" duration="9353000" />
+      <workItem from="1575873979572" duration="9531000" />
+      <workItem from="1575905558398" duration="1901000" />
+      <workItem from="1575941136531" duration="1181000" />
+      <workItem from="1576047933875" duration="2115000" />
     </task>
     <servers />
   </component>
