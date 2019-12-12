@@ -25,8 +25,7 @@ export class NavComponent implements OnInit {
   onLogin() {
     const user: User = this.signupForm.value;
     this.authService.login(user).subscribe(
-      (response) => console.log('Log in success'),
-      (error) => console.log('Log in not success')
+      (response) => console.log('Log in success')
     );
   }
   loggedIn() {
