@@ -1,53 +1,52 @@
-<nav class="navbar navbar-expand-md navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">Dating App</a>
-  <ul class="navbar-nav mr-auto">
-    <li class="nav-item active">
-      <a href="#" class="nav-link">Matches</a>
-    </li>
-    <li class="nav-item">
-      <a href="#" class="nav-link">Lists</a>
-    </li>
-    <li class="nav-item">
-      <a href="#" class="nav-link">Messages</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" (click)="logout()">Log out</a>
-    </li>
-  </ul>
-  <div class="dropdown" *ngIf="loggedIn()">
-    <a class="dropdown-toggle text-light">
-      Welcome User
-    </a>
-    <div class="dropdown-menu">
-      <a class="dropdown-item" href="#">
-        <i class="fa fa-user"></i>Edit Profile</a>
-      <div class="dropdown-divider"></div>
-      <a class="dropdown-item" href="#">
-        <i class="fa fa-sign-out"></i> Logout</a>
+<nav class="navbar navbar-expand-md navbar-dark bg-primary">
+  <div class="container">
+    <a class="navbar-brand" href="#">Dating App</a>
+    <ul class="navbar-nav mr-auto" *ngIf="loggedIn()">
+      <li class="nav-item active">
+        <a href="#" class="nav-link">Matches</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">Lists</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">Messages</a>
+      </li>
+    </ul>
+    <div class="dropdown" *ngIf="loggedIn()" dropdown>
+      <a class="dropdown-toggle text-light" dropdownToggle>
+        Welcome {{ authService.decodeToken?.unique_name | titlecase }}
+      </a>
+      <div class="dropdown-menu mt-3" *dropdownMenu>
+        <a class="dropdown-item" href="#">
+          <i class="fa fa-user"></i> Edit Profile</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" (click)="logout()">
+          <i class="fa fa-sign-out"></i> Log Out</a>
+      </div>
     </div>
-  </div>
-  <form
-    class="form-inline my-2 my-lg-0"
-    [formGroup]="signupForm"
-    (ngSubmit)="onLogin()"
-    *ngIf="!loggedIn()"
-  >
-    <div class="form-group">
+    <form
+      class="form-inline my-2 my-lg-0"
+      [formGroup]="signupForm"
+      (ngSubmit)="onLogin()"
+      *ngIf="!loggedIn()"
+    >
+      <div class="form-group">
+        <input
+          class="form-control mr-sm-2"
+          type="text"
+          placeholder="Username"
+          formControlName="username">
+      </div>
       <input
         class="form-control mr-sm-2"
-        type="text"
-        placeholder="Username"
-        formControlName="username">
-    </div>
-    <input
-      class="form-control mr-sm-2"
-      type="password"
-      placeholder="Password"
-      formControlName="password">
-    <button
-      [disabled]="!signupForm.valid ? true : false"
-      class="btn btn-success my-2 my-sm-0"
-      type="submit">Login
-    </button>
-  </form>
+        type="password"
+        placeholder="Password"
+        formControlName="password">
+      <button
+        [disabled]="!signupForm.valid ? true : false"
+        class="btn btn-success my-2 my-sm-0"
+        type="submit">Login
+      </button>
+    </form>
+  </div>
 </nav>

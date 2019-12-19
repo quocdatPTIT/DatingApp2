@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="290f7726-04ef-4967-b0bd-cc1964d7b83b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DatingApp.API/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DatingApp.API/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatingApp-SPA/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../DatingApp-SPA/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatingApp-SPA/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../DatingApp-SPA/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatingApp-SPA/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../DatingApp-SPA/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatingApp-SPA/src/app/nav/nav.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../DatingApp-SPA/src/app/nav/nav.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatingApp-SPA/src/app/register/register.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../DatingApp-SPA/src/app/register/register.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatingApp-SPA/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../DatingApp-SPA/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatingApp-SPA/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/../DatingApp-SPA/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DatingApp.API/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DatingApp.API/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -116,6 +121,10 @@
       <workItem from="1575941136531" duration="1181000" />
       <workItem from="1576047933875" duration="2563000" />
       <workItem from="1576076913170" duration="5426000" />
+      <workItem from="1576209632374" duration="408000" />
+      <workItem from="1576227602222" duration="1039000" />
+      <workItem from="1576570455148" duration="2834000" />
+      <workItem from="1576738350259" duration="2424000" />
     </task>
     <servers />
   </component>
