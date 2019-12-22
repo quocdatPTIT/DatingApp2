@@ -21,17 +21,15 @@ export class AuthService {
     return this.http
       .post(`${this.baseUrl}/login`, model)
       .pipe(
-      map(
-        (response: any) => {
-          console.log(response);
-          const user = response;
-          if (user) {
-            localStorage.setItem('token', user.token);
-            this.decodeToken = this.jwtHelper.decodeToken(user.token);
-            console.log(this.decodeToken);
-          }
-        })
-    );
+          map(
+          (response: any) => {
+            const user = response;
+            if (user) {
+              localStorage.setItem('token', user.token);
+              this.decodeToken = this.jwtHelper.decodeToken(user.token);
+            }
+          })
+      );
   }
 
   /**

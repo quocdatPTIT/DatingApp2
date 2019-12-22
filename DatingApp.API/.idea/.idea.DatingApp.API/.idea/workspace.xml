@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="290f7726-04ef-4967-b0bd-cc1964d7b83b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../DatingApp-SPA/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../DatingApp-SPA/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DatingApp-SPA/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../DatingApp-SPA/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatingApp-SPA/src/app/_services/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../DatingApp-SPA/src/app/_services/auth.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatingApp-SPA/src/app/_services/error.interceptor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../DatingApp-SPA/src/app/_services/error.interceptor.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatingApp-SPA/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../DatingApp-SPA/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DatingApp-SPA/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../DatingApp-SPA/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatingApp-SPA/src/app/nav/nav.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../DatingApp-SPA/src/app/nav/nav.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DatingApp-SPA/src/app/nav/nav.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../DatingApp-SPA/src/app/nav/nav.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DatingApp-SPA/src/app/register/register.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../DatingApp-SPA/src/app/register/register.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DatingApp-SPA/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../DatingApp-SPA/src/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DatingApp-SPA/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/../DatingApp-SPA/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DatingApp.API/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DatingApp.API/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -125,6 +124,10 @@
       <workItem from="1576227602222" duration="1039000" />
       <workItem from="1576570455148" duration="2834000" />
       <workItem from="1576738350259" duration="2424000" />
+      <workItem from="1576763042133" duration="681000" />
+      <workItem from="1576808732062" duration="942000" />
+      <workItem from="1576941908066" duration="637000" />
+      <workItem from="1576945959527" duration="2069000" />
     </task>
     <servers />
   </component>
