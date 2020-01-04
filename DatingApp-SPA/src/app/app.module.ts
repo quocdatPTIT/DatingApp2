@@ -1,21 +1,35 @@
-import { BrowserModule } from '@angular/platform-browser';
+import { BrowserModule, HAMMER_GESTURE_CONFIG, HammerGestureConfig } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
-import { BsDropdownModule } from 'ngx-bootstrap';
+import { JwtModule } from '@auth0/angular-jwt';
+import { NgxGalleryModule } from 'ngx-gallery';
+import { BsDropdownModule, TabsModule } from 'ngx-bootstrap';
 
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { AuthService } from './_services/auth.service';
+import { UserService } from './_services/user.service';
 import { appRoutes } from '../routes';
 import { HomeComponent } from './home/home.component';
-import { MemberListComponent } from './member-list/member-list.component';
+import { MemberListComponent } from './member/member-list/member-list.component';
 import { MessagesComponent } from './messages/messages.component';
 import { ListsComponent } from './lists/lists.component';
 import { RegisterComponent } from './register/register.component';
 import { AlertifyService } from './_services/alertify.service';
 import { ErrorInterceptorProvider } from './_services/error.interceptor';
+import { MemberCardComponent } from './member/member-card/member-card.component';
+import { MemberDetailComponent } from './member/member-detail/member-detail.component';
+import { MemberDetailResolver } from './_resolvers/member-detail.resolver';
+import { MemberListResolver } from './_resolvers/member-list.resolver';
+
+export class CustomHammerConfig extends HammerGestureConfig  {
+  overrides = {
+    pinch: { enable: false },
+    rotate: { enable: false }
+  };
+}
 
 @NgModule({
   declarations: [
@@ -25,19 +39,38 @@ import { ErrorInterceptorProvider } from './_services/error.interceptor';
     RegisterComponent,
     MemberListComponent,
     MessagesComponent,
-    ListsComponent
+    ListsComponent,
+    MemberCardComponent,
+    MemberDetailComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     ReactiveFormsModule,
     BsDropdownModule.forRoot(),
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes),
+    TabsModule.forRoot(),
+    NgxGalleryModule,
+    JwtModule.forRoot({
+      config: {
+        tokenGetter: () => {
+          return localStorage.getItem('token');
+        },
+        whitelistedDomains: ['localhost:5000'],
+        blacklistedRoutes: ['localhost:5000/api/auth']
+      }
+    })
   ],
   providers: [
     AuthService,
+    UserService,
     ErrorInterceptorProvider,
-    AlertifyService
+    AlertifyService,
+    MemberDetailResolver,
+    MemberListResolver,
+    {
+      provide: HAMMER_GESTURE_CONFIG, useClass: CustomHammerConfig
+    }
   ],
   bootstrap: [AppComponent]
 })
