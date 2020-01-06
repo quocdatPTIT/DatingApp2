@@ -16,10 +16,25 @@ import {HttpClient, HttpHeaders} from '@angular/common/http';
 export class UserService {
   baseUrl = environment.apiUrl;
   constructor(private httpClient: HttpClient) {}
+  /**
+   * Get all users form db
+   */
   getUsers(): Observable<User[]> {
     return this.httpClient.get<User[]>(this.baseUrl + 'users');
   }
+  /**
+   * get user follow id
+   * @param id user
+   */
   getUser(id: number): Observable<User> {
     return this.httpClient.get<User>(this.baseUrl + 'users/' + id);
+  }
+  /**
+   * update user
+   * @param id user
+   * @param user information need update
+   */
+  updateUser(id: number, user: User): Observable<any> {
+    return this.httpClient.put(this.baseUrl + 'users/' + id, user);
   }
 }

@@ -1,3 +1,4 @@
+import { PreventUnsavedChanges } from './_guards/prevent-unsaved-changes.guard';
 import { BrowserModule, HAMMER_GESTURE_CONFIG, HammerGestureConfig } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
@@ -8,7 +9,7 @@ import { BsDropdownModule, TabsModule } from 'ngx-bootstrap';
 
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
-import { ReactiveFormsModule } from '@angular/forms';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { AuthService } from './_services/auth.service';
 import { UserService } from './_services/user.service';
 import { appRoutes } from '../routes';
@@ -23,6 +24,7 @@ import { MemberCardComponent } from './member/member-card/member-card.component'
 import { MemberDetailComponent } from './member/member-detail/member-detail.component';
 import { MemberDetailResolver } from './_resolvers/member-detail.resolver';
 import { MemberListResolver } from './_resolvers/member-list.resolver';
+import { MemberEditComponent } from './member/member-edit/member-edit.component';
 
 export class CustomHammerConfig extends HammerGestureConfig  {
   overrides = {
@@ -41,11 +43,13 @@ export class CustomHammerConfig extends HammerGestureConfig  {
     MessagesComponent,
     ListsComponent,
     MemberCardComponent,
-    MemberDetailComponent
+    MemberDetailComponent,
+    MemberEditComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
+    FormsModule,
     ReactiveFormsModule,
     BsDropdownModule.forRoot(),
     RouterModule.forRoot(appRoutes),
@@ -70,7 +74,8 @@ export class CustomHammerConfig extends HammerGestureConfig  {
     MemberListResolver,
     {
       provide: HAMMER_GESTURE_CONFIG, useClass: CustomHammerConfig
-    }
+    },
+    PreventUnsavedChanges
   ],
   bootstrap: [AppComponent]
 })
