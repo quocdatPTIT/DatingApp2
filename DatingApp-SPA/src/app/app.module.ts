@@ -6,6 +6,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { JwtModule } from '@auth0/angular-jwt';
 import { NgxGalleryModule } from 'ngx-gallery';
 import { BsDropdownModule, TabsModule } from 'ngx-bootstrap';
+import { FileUploadModule } from 'ng2-file-upload';
 
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
@@ -25,6 +26,7 @@ import { MemberDetailComponent } from './member/member-detail/member-detail.comp
 import { MemberDetailResolver } from './_resolvers/member-detail.resolver';
 import { MemberListResolver } from './_resolvers/member-list.resolver';
 import { MemberEditComponent } from './member/member-edit/member-edit.component';
+import { PhotoEditorComponent } from './member/photo-editor/photo-editor/photo-editor.component';
 
 export class CustomHammerConfig extends HammerGestureConfig  {
   overrides = {
@@ -44,10 +46,12 @@ export class CustomHammerConfig extends HammerGestureConfig  {
     ListsComponent,
     MemberCardComponent,
     MemberDetailComponent,
-    MemberEditComponent
+    MemberEditComponent,
+    PhotoEditorComponent
   ],
   imports: [
     BrowserModule,
+    FileUploadModule,
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,

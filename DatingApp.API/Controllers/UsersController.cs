@@ -36,10 +36,18 @@ namespace DatingApp.API.Controllers
         [HttpGet]
         public async Task<IActionResult> GetUsers()
         {
-            var users = await _repo.GetUsers();
+            try
+            {
+                var users = await _repo.GetUsers();
 
-            var usersToReturn = _mapper.Map<IEnumerable<UserForListDto>>(users);
-            return Ok(usersToReturn);
+                var usersToReturn = _mapper.Map<IEnumerable<UserForListDto>>(users);
+
+                return Ok(usersToReturn);                
+            }
+            catch (System.Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
         
         /// <summary>
@@ -50,10 +58,18 @@ namespace DatingApp.API.Controllers
         [HttpGet("{id}")]
         public async Task<IActionResult> GetUser(int id)
         {
-            var user = await _repo.GetUser(id);
+            try
+            {
+                var user = await _repo.GetUser(id);
 
-            var userToReturn = _mapper.Map<UserForDetailedDto>(user);
-            return Ok(userToReturn);
+                var userToReturn = _mapper.Map<UserForDetailedDto>(user);
+
+                return Ok(userToReturn);
+            }
+            catch (System.Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
         /// <summary>
