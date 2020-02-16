@@ -1,7 +1,7 @@
+import { User } from './../_models/user';
 import { Component, OnInit } from '@angular/core';
 import {FormControl, FormGroup, Validators} from '@angular/forms';
 import {AuthService} from '../_services/auth.service';
-import {User} from '../shared/user.model';
 import {AlertifyService} from '../_services/alertify.service';
 import {Router} from '@angular/router';
 
@@ -12,6 +12,7 @@ import {Router} from '@angular/router';
 })
 export class NavComponent implements OnInit {
   signupForm: FormGroup;
+  photoUrl: string;
   constructor(public authService: AuthService,
               private alertify: AlertifyService,
               private router: Router) { }
@@ -21,6 +22,7 @@ export class NavComponent implements OnInit {
       username: new FormControl(null, Validators.required),
       password: new FormControl(null, Validators.required)
     });
+    this.authService.currentPhotoUrl.subscribe(photoUrl => this.photoUrl = photoUrl);
   }
 
   /**
@@ -47,6 +49,10 @@ export class NavComponent implements OnInit {
    */
   logout() {
     localStorage.removeItem('token');
+    localStorage.removeItem('user');
+    this.authService.currentUser = null;
+    this.authService.decodeToken = null;
+
     this.alertify.warning('logged out');
     this.router.navigate(['/home']);
   }
