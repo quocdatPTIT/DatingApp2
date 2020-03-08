@@ -1,11 +1,12 @@
 import { PreventUnsavedChanges } from './_guards/prevent-unsaved-changes.guard';
 import { BrowserModule, HAMMER_GESTURE_CONFIG, HammerGestureConfig } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 import { JwtModule } from '@auth0/angular-jwt';
 import { NgxGalleryModule } from 'ngx-gallery';
-import { BsDropdownModule, TabsModule } from 'ngx-bootstrap';
+import { BsDropdownModule, TabsModule, BsDatepickerModule } from 'ngx-bootstrap';
 import { FileUploadModule } from 'ng2-file-upload';
 
 import { AppComponent } from './app.component';
@@ -51,11 +52,13 @@ export class CustomHammerConfig extends HammerGestureConfig  {
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     FileUploadModule,
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
     BsDropdownModule.forRoot(),
+    BsDatepickerModule.forRoot(),
     RouterModule.forRoot(appRoutes),
     TabsModule.forRoot(),
     NgxGalleryModule,
