@@ -1,3 +1,4 @@
+import { Pagination } from './../../_models/pagination';
 import { Component, OnInit } from '@angular/core';
 import { User } from '../../_models/user';
 import { UserService } from '../../_services/user.service';
@@ -11,13 +12,16 @@ import {ActivatedRoute} from '@angular/router';
 })
 export class MemberListComponent implements OnInit {
   users: User[];
-  constructor(private userService: UserService,
-              private route: ActivatedRoute,
+  pagination: Pagination;
+  constructor(private userService: UserService, private route: ActivatedRoute,
               private alertify: AlertifyService) { }
 
   ngOnInit() {
     this.route.data.subscribe(
-      data => this.users = data.users
+      data => {
+        this.users = data.users.result;
+        this.pagination = data.users.pagination;
+      }
     );
   }
 
