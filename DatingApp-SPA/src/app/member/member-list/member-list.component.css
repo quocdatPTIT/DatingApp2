@@ -1,0 +1,32 @@
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+input, select {
+    border-radius: 3px;
+}
+
+.form-control:focus {
+    border-color: #ccc;
+    box-shadow: none;
+}
+
+button[type=submit],
+button[type=button] {
+    border-radius: 3px;
+}
+
+.btn-primary:focus,
+.btn-primary:not(:disabled):not(.disabled).active:focus {
+    box-shadow: none;
+}
+
+.col {
+    padding-right: 0px;
+}

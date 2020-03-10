@@ -26,6 +26,8 @@ namespace DatingApp.API.Dtos
         [Required]
         public string Country { get; set; }
 
+        [Required]
+        public string Gender { get; set;}
         public DateTime Created { get; set; }
         public DateTime LastActive { get; set; }
         public UserForRegisterDto()
