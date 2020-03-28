@@ -26,3 +26,4 @@ export class ListsResolver implements Resolve<User[]> {
     );
   }
 }
+
