@@ -110,4 +110,8 @@ export class UserService {
         })
       );
   }
+
+  getMessageThread(id: number, recipientId: number) {
+    return this.httpClient.get<Message[]>(this.baseUrl + 'users/' + id + '/messages/thread/' + recipientId);
+  }
 }

@@ -31,6 +31,7 @@ import { MemberListResolver } from './_resolvers/member-list.resolver';
 import { MemberEditComponent } from './member/member-edit/member-edit.component';
 import { PhotoEditorComponent } from './member/photo-editor/photo-editor/photo-editor.component';
 import { ListsResolver } from './_resolvers/lists.resolver';
+import { MemberMessagesComponent } from './member/member-messages/member-messages.component';
 
 export class CustomHammerConfig extends HammerGestureConfig  {
   overrides = {
@@ -52,7 +53,8 @@ export class CustomHammerConfig extends HammerGestureConfig  {
     MemberDetailComponent,
     MemberEditComponent,
     PhotoEditorComponent,
-    TimeAgoPipe
+    TimeAgoPipe,
+    MemberMessagesComponent
   ],
   imports: [
     BrowserModule,
