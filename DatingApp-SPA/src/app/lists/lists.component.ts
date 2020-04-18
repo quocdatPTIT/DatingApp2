@@ -22,7 +22,6 @@ export class ListsComponent implements OnInit {
 
   ngOnInit() {
     this.route.data.subscribe(data => {
-      debugger
       this.users = data.user.result;
       this.pagination = data.user.pagination;
     });
