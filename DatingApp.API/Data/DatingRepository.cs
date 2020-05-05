@@ -166,7 +166,7 @@ namespace DatingApp.API.Data
                     break;
             }
 
-            messages = messages.OrderByDescending(d => d.MessageSent);
+            messages = messages.OrderBy(d => d.MessageSent);
             return await PagedList<Message>.CreateAsync(messages, messageParams.PageNumber, messageParams.PageSize); 
         }
 
@@ -177,7 +177,7 @@ namespace DatingApp.API.Data
                 .Include(u => u.Recipient).ThenInclude(p => p.Photos)
                 .Where(u => (u.SenderId == userId && u.RecipientId == recipientId) 
                     || (u.SenderId == recipientId && u.RecipientId == userId))
-                .OrderByDescending(m => m.MessageSent)
+                .OrderBy(m => m.MessageSent)
                 .ToListAsync();
 
             return messages;            
