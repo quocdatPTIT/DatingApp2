@@ -40,6 +40,17 @@ export class MessagesComponent implements OnInit {
       });
   }
 
+  deleteMessage(id: number) {
+    this.alertify.confirm('Are you sure want to delete this message', () => {
+      this.userService.deleteMessage(id, this.authService.decodeToken.nameid).subscribe(() => {
+        this.messages.splice(this.messages.findIndex(m => m.id === id), 1);
+        this.alertify.success('Mesasge has been deleted');
+      }, error => {
+        this.alertify.error('Failed to delete to message');
+      });
+    });
+  }
+
   pageChanged(event: any) {
     this.pagination.currentPage = event.page;
     this.loadMessages();
