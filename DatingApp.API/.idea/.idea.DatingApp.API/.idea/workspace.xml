@@ -1,54 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="290f7726-04ef-4967-b0bd-cc1964d7b83b" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="290f7726-04ef-4967-b0bd-cc1964d7b83b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/../.vscode/launch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.vscode/tasks.json" beforeDir="false" afterPath="$PROJECT_DIR$/../.vscode/tasks.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatingApp-SPA/src/app/_models/message.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../DatingApp-SPA/src/app/_models/message.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatingApp-SPA/src/app/_models/pagination.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../DatingApp-SPA/src/app/_models/pagination.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatingApp-SPA/src/app/_resolvers/lists.resolver.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../DatingApp-SPA/src/app/_resolvers/lists.resolver.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatingApp-SPA/src/app/_resolvers/message.resolver.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../DatingApp-SPA/src/app/_resolvers/message.resolver.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatingApp-SPA/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../DatingApp-SPA/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatingApp-SPA/src/app/member/member-edit/member-edit.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../DatingApp-SPA/src/app/member/member-edit/member-edit.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatingApp-SPA/src/app/member/member-list/member-list.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../DatingApp-SPA/src/app/member/member-list/member-list.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatingApp-SPA/src/app/member/member-messages/member-messages.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../DatingApp-SPA/src/app/member/member-messages/member-messages.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatingApp-SPA/src/app/member/photo-editor/photo-editor/photo-editor.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../DatingApp-SPA/src/app/member/photo-editor/photo-editor/photo-editor.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatingApp-SPA/src/app/member/photo-editor/photo-editor/photo-editor.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../DatingApp-SPA/src/app/member/photo-editor/photo-editor/photo-editor.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatingApp-SPA/src/app/member/photo-editor/photo-editor/photo-editor.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../DatingApp-SPA/src/app/member/photo-editor/photo-editor/photo-editor.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatingApp-SPA/src/app/messages/messages.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../DatingApp-SPA/src/app/messages/messages.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatingApp-SPA/src/app/nav/nav.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../DatingApp-SPA/src/app/nav/nav.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatingApp-SPA/src/app/nav/nav.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../DatingApp-SPA/src/app/nav/nav.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatingApp-SPA/src/app/register/register.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../DatingApp-SPA/src/app/register/register.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatingApp-SPA/src/app/register/register.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../DatingApp-SPA/src/app/register/register.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DatingApp.API/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DatingApp.API/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DatingApp.API/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DatingApp.API/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DatingApp.API/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DatingApp.API/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/MessagesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/MessagesController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/PhotosController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/PhotosController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/AuthRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/AuthRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/DataContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/DataContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatingApp.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DatingApp.API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dtos/PhotoForCreationDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dtos/PhotoForCreationDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dtos/PhotoForReturnDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dtos/PhotoForReturnDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20200324042409_AddedLikeEntity.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Migrations/20200324042409_AddedLikeEntity.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20200324042409_AddedLikeEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Migrations/20200324042409_AddedLikeEntity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20200328163612_MessageEntityAdded.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Migrations/20200328163612_MessageEntityAdded.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20200328163612_MessageEntityAdded.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Migrations/20200328163612_MessageEntityAdded.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20200417093707_AddedColumnIntoMessageTable.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Migrations/20200417093707_AddedColumnIntoMessageTable.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20200417093707_AddedColumnIntoMessageTable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Migrations/20200417093707_AddedColumnIntoMessageTable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/DataContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Migrations/DataContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/CloudinarySettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/CloudinarySettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/LogUserActivity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/LogUserActivity.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Dtos/PhotosForDetailedDto.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/56C02F65-7F8E-4DE0-B35F-CD26C3C2693D/ca/33f6e145/AsyncValueTaskMethodBuilder`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Dtos/UserForDetailedDto.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Controllers/AuthController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Controllers/ValuesController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Controllers/UsersController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Data/Seed.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Models/User.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Dtos/UserForListDto.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Migrations/20191208150845_AddedUserEntity.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Migrations/20191222080848_ExtendedUserClass.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Data/DatingRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/helpers/AutoMapperProfiles.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Data/IAuthRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Data/IDatingRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Data/DatingRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Data/Seed.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Migrations/20191222080848_ExtendedUserClass.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Data/AuthRepository.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Models/Photo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/helpers/AutoMapperProfiles.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Dtos/UserForRegisterDto.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Dtos/UserForLoginDto.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Data/DataContext.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/helpers/Extensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Data/DataContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Dtos/UserForRegisterDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Dtos/PhotosForDetailedDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Migrations/20191208150845_AddedUserEntity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Dtos/UserForListDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controllers/AuthController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Dtos/UserForDetailedDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///media/dat/Code/DatingApp/DatingApp.API/Data/AuthRepository.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controllers/ValuesController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Dtos/UserForLoginDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controllers/UsersController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/Photo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/User.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/helpers/Extensions.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -60,7 +84,6 @@
         <option value="$PROJECT_DIR$/appsettings.Development.json" />
         <option value="$PROJECT_DIR$/Controllers/ValuesController.cs" />
         <option value="$PROJECT_DIR$/Properties/launchSettings.json" />
-        <option value="$PROJECT_DIR$/Data/AuthRepository.cs" />
         <option value="$PROJECT_DIR$/Models/User.cs" />
         <option value="$PROJECT_DIR$/Data/DataContext.cs" />
         <option value="$PROJECT_DIR$/Models/Photo.cs" />
@@ -71,35 +94,34 @@
         <option value="$PROJECT_DIR$/Dtos/UserForListDto.cs" />
         <option value="$PROJECT_DIR$/Dtos/UserForDetailedDto.cs" />
         <option value="$PROJECT_DIR$/Dtos/PhotosForDetailedDto.cs" />
-        <option value="$PROJECT_DIR$/Startup.cs" />
         <option value="$PROJECT_DIR$/helpers/Extensions.cs" />
         <option value="$PROJECT_DIR$/helpers/AutoMapperProfiles.cs" />
         <option value="$PROJECT_DIR$/Controllers/UsersController.cs" />
         <option value="$PROJECT_DIR$/Controllers/AuthController.cs" />
         <option value="$PROJECT_DIR$/Data/DatingRepository.cs" />
+        <option value="$PROJECT_DIR$/Startup.cs" />
+        <option value="$PROJECT_DIR$/Data/AuthRepository.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1UgWrkWD0lkDc33TIVd4yRziCAn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.35034803" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30007735" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.DatingApp.API">
     <configuration name="DatingApp.API" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
@@ -114,7 +136,7 @@
       <option name="SEND_DEBUG_REQUEST" value="1" />
       <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
       <method v="2">
-        <option name="Build" enabled="true" />
+        <option name="Build" />
       </method>
     </configuration>
     <configuration name="DatingApp.API: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
@@ -129,9 +151,13 @@
       <option name="SEND_DEBUG_REQUEST" value="1" />
       <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
       <method v="2">
-        <option name="Build" enabled="true" />
+        <option name="Build" />
       </method>
     </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -170,11 +196,19 @@
       <workItem from="1578064203449" duration="1897000" />
       <workItem from="1578102230208" duration="4016000" />
       <workItem from="1582900092471" duration="272000" />
+      <workItem from="1599890190688" duration="39000" />
+      <workItem from="1599890774280" duration="1084000" />
+      <workItem from="1599895816920" duration="811000" />
+      <workItem from="1599933982839" duration="605000" />
+      <workItem from="1599958995758" duration="730000" />
+      <workItem from="1599976809963" duration="281000" />
+      <workItem from="1599977129462" duration="218000" />
+      <workItem from="1599977390332" duration="270000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -191,16 +225,137 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="546" y="247" key="#Notifications" timestamp="1599959043295">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="546" y="247" key="#Notifications/0.0.1366.738@0.0.1366.738" timestamp="1599959043295" />
+    <state x="100" y="100" width="1166" height="528" key="DiffContextDialog" timestamp="1599977091556">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="100" y="100" width="1166" height="528" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1599977091556" />
+    <state width="1324" height="241" key="GridCell.Tab.0.bottom" timestamp="1599977660673">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="241" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599977660673" />
+    <state width="1325" height="254" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1599894436014" />
+    <state width="1324" height="241" key="GridCell.Tab.0.center" timestamp="1599977660672">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="241" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599977660672" />
+    <state width="1325" height="254" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1599894436014" />
+    <state width="1324" height="241" key="GridCell.Tab.0.left" timestamp="1599977660672">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="241" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599977660672" />
+    <state width="1325" height="254" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1599894436014" />
+    <state width="1324" height="241" key="GridCell.Tab.0.right" timestamp="1599977660673">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="241" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599977660673" />
+    <state width="1325" height="254" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1599894436014" />
+    <state width="1324" height="241" key="GridCell.Tab.1.bottom" timestamp="1599977660674">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="241" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599977660674" />
+    <state width="1325" height="254" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1599894436014" />
+    <state width="1324" height="241" key="GridCell.Tab.1.center" timestamp="1599977660674">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="241" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1599977660674" />
+    <state width="1325" height="254" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1599894436014" />
+    <state width="1324" height="241" key="GridCell.Tab.1.left" timestamp="1599977660673">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="241" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1599977660673" />
+    <state width="1325" height="254" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1599894436014" />
+    <state width="1324" height="241" key="GridCell.Tab.1.right" timestamp="1599977660674">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="241" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1599977660674" />
+    <state width="1325" height="254" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1599894436014" />
+    <state width="1324" height="241" key="GridCell.Tab.2.bottom" timestamp="1599977660678">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="241" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599977660678" />
+    <state width="1325" height="254" key="GridCell.Tab.2.bottom/0.0.1366.738@0.0.1366.738" timestamp="1599894436021" />
+    <state width="1324" height="241" key="GridCell.Tab.2.center" timestamp="1599977660678">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="241" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1599977660678" />
+    <state width="1325" height="254" key="GridCell.Tab.2.center/0.0.1366.738@0.0.1366.738" timestamp="1599894436014" />
+    <state width="1324" height="241" key="GridCell.Tab.2.left" timestamp="1599977660674">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="241" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1599977660674" />
+    <state width="1325" height="254" key="GridCell.Tab.2.left/0.0.1366.738@0.0.1366.738" timestamp="1599894436014" />
+    <state width="1324" height="241" key="GridCell.Tab.2.right" timestamp="1599977660678">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="241" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1599977660678" />
+    <state width="1325" height="254" key="GridCell.Tab.2.right/0.0.1366.738@0.0.1366.738" timestamp="1599894436014" />
+    <state width="1324" height="241" key="GridCell.Tab.3.bottom" timestamp="1599977660679">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="241" key="GridCell.Tab.3.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599977660679" />
+    <state width="1325" height="254" key="GridCell.Tab.3.bottom/0.0.1366.738@0.0.1366.738" timestamp="1599894436021" />
+    <state width="1324" height="241" key="GridCell.Tab.3.center" timestamp="1599977660679">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="241" key="GridCell.Tab.3.center/0.0.1366.728@0.0.1366.728" timestamp="1599977660679" />
+    <state width="1325" height="254" key="GridCell.Tab.3.center/0.0.1366.738@0.0.1366.738" timestamp="1599894436021" />
+    <state width="1324" height="241" key="GridCell.Tab.3.left" timestamp="1599977660679">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="241" key="GridCell.Tab.3.left/0.0.1366.728@0.0.1366.728" timestamp="1599977660679" />
+    <state width="1325" height="254" key="GridCell.Tab.3.left/0.0.1366.738@0.0.1366.738" timestamp="1599894436021" />
+    <state width="1324" height="241" key="GridCell.Tab.3.right" timestamp="1599977660679">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="241" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1599977660679" />
+    <state width="1325" height="254" key="GridCell.Tab.3.right/0.0.1366.738@0.0.1366.738" timestamp="1599894436021" />
+    <state width="1324" height="241" key="GridCell.Tab.4.bottom" timestamp="1599977660681">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="241" key="GridCell.Tab.4.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599977660681" />
+    <state width="1325" height="254" key="GridCell.Tab.4.bottom/0.0.1366.738@0.0.1366.738" timestamp="1599894436021" />
+    <state width="1324" height="241" key="GridCell.Tab.4.center" timestamp="1599977660680">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="241" key="GridCell.Tab.4.center/0.0.1366.728@0.0.1366.728" timestamp="1599977660680" />
+    <state width="1325" height="254" key="GridCell.Tab.4.center/0.0.1366.738@0.0.1366.738" timestamp="1599894436021" />
+    <state width="1324" height="241" key="GridCell.Tab.4.left" timestamp="1599977660680">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="241" key="GridCell.Tab.4.left/0.0.1366.728@0.0.1366.728" timestamp="1599977660680" />
+    <state width="1325" height="254" key="GridCell.Tab.4.left/0.0.1366.738@0.0.1366.738" timestamp="1599894436021" />
+    <state width="1324" height="241" key="GridCell.Tab.4.right" timestamp="1599977660681">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="241" key="GridCell.Tab.4.right/0.0.1366.728@0.0.1366.728" timestamp="1599977660681" />
+    <state width="1325" height="254" key="GridCell.Tab.4.right/0.0.1366.738@0.0.1366.738" timestamp="1599894436021" />
+    <state x="275" y="100" key="Rider.ProjectTemplateDialog.Size" timestamp="1599896020408">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="100" key="Rider.ProjectTemplateDialog.Size/0.0.1366.738@0.0.1366.738" timestamp="1599896020408" />
+    <state x="209" y="0" key="SettingsEditor" timestamp="1599977458260">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="209" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1599977458260" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1599890949927">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1599890949927" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

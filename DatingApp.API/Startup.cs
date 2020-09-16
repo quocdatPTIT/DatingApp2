@@ -13,6 +13,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 
 namespace DatingApp.API
 {
@@ -32,6 +33,7 @@ namespace DatingApp.API
             services.AddControllers()
                 .AddNewtonsoftJson(opt => 
                     opt.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
+            services.AddSwaggerGen(c => c.SwaggerDoc("v1", new OpenApiInfo {Title = "DatingApp", Version = "v1.0.0"}));
             services.AddCors();
             services.Configure<CloudinarySettings>(Configuration.GetSection("CloudinarySettings"));
             services.AddAutoMapper(typeof(Startup).Assembly);
@@ -77,10 +79,12 @@ namespace DatingApp.API
                 });
             }
 
+            app.UseSwagger();
+            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "DatingApp"));
             app.UseCors(x => x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
             
             //app.UseHttpsRedirection();
-
+            
             app.UseRouting();
             
             app.UseAuthentication();
